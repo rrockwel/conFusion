@@ -17,7 +17,7 @@ $(document).ready(function(){
             $('#carousel-button').children('span').removeClass('fa-play');
             $('#carousel-button').children('span').addClass('fa-pause');
         }
-    })
+    });
 
     $('#loginButton').click(function(){
         $('#loginModal').modal('show');
